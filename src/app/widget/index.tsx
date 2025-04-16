@@ -47,7 +47,7 @@ export const Widget = () => {
           disabledButtonOutline: "rgba(18, 18, 18,1)",
           disabledButtonColor: "#FFFFFF",
 
-          tabBorder: "#6de8ad",
+          tabBorder: "#6b88a8",
 
           secondaryButtonBackground: "#FFFFFF0D",
           secondaryButtonOutline: "#FFFFFF0D",
