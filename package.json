@@ -1,0 +1,40 @@
+{
+  "name": "bitgo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check --write .",
+    "format": "pnpm lint"
+  },
+  "dependencies": {
+    "@stakekit/widget": "0.0.223",
+    "@types/node": "22.14.1",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "@vanilla-extract/css": "^1.17.1",
+    "@vanilla-extract/dynamic": "^2.1.2",
+    "@vanilla-extract/next-plugin": "^2.4.10",
+    "@vanilla-extract/recipes": "^0.5.5",
+    "@vanilla-extract/sprinkles": "^1.6.3",
+    "clsx": "^2.1.1",
+    "lodash.merge": "^4.6.2",
+    "next": "15.3.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/lodash.merge": "^4.6.9"
+  },
+  "packageManager": "pnpm@10.8.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
+}

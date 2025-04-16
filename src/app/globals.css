@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+}
+
+html {
+  background: #121214;
+}
+
+.gradient-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle,
+    rgba(87, 141, 255, 0.3) 0%,
+    rgba(20, 30, 48, 0.7) 60%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+div[data-rk="widget-container"] {
+  border-radius: 20px;
+  padding: 1px;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
+}
+
+div[data-rk="widget-container"]:before {
+  background-image: linear-gradient(
+    160.93deg,
+    #6b88a8 4.91%,
+    #1a1a1a 24.73%,
+    #1a1a1a 66.87%,
+    #6b88a8 94.35%
+  );
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  position: absolute;
+  border-radius: 20px;
+  content: "";
+  z-index: -1;
+  pointer-events: none;
+}
+
+div[data-rk="widget-container"]:after {
+  background: rgba(0, 0, 0, 0.83);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-radius: 20px;
+  content: "";
+  z-index: 0;
+}
+
+div[data-rk="widget-container"] > * {
+  z-index: 1;
+}
