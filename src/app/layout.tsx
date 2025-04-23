@@ -1,7 +1,6 @@
 import "../styles/global.css";
 import localFont from "next/font/local";
 import { layoutContainer } from "./style.css";
-import "./globals.css";
 
 export const metadata = {
   title: "StakeKit",
@@ -19,7 +18,7 @@ const soehne = localFont({
     {
       path: "./Soehne-Kraftig.woff2",
       weight: "500",
-      style: "italic",
+      style: "normal",
     },
     {
       path: "./Soehne-Halbfett.woff2",
