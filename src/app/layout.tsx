@@ -3,8 +3,8 @@ import localFont from "next/font/local";
 import { layoutContainer } from "./style.css";
 
 export const metadata = {
-  title: "StakeKit",
-  description: "StakeKit",
+  title: "Yield.xyz",
+  description: "Yield.xyz",
 };
 
 const soehne = localFont({
